@@ -1,0 +1,9 @@
+.dropdownItem{
+    display: flex;
+    margin: 10px auto;
+}
+
+.dropdownItem span{
+    font-weight: 600;
+    cursor: pointer;
+}

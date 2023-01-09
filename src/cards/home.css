@@ -1,0 +1,45 @@
+.cards-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 3rem;
+    gap: 1rem;
+}
+
+.card-box{
+    margin-bottom: 1rem;
+}
+
+.card-img {
+    height: 256.97px;
+    width: 270.5px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.card-info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.card-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.card-title{
+    margin-top:0.2rem;
+    font-weight: 500;
+}
+
+.card-box .swiper-pagination-bullet-active {
+    background-color: #ffff !important;
+  }
+  
+.cost {
+    font-weight: 500;
+}

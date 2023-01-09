@@ -1,0 +1,33 @@
+[debug] [2023-01-09T13:13:28.987Z] ----------------------------------------------------------------------
+[debug] [2023-01-09T13:13:28.988Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mill\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2023-01-09T13:13:28.989Z] CLI Version:   11.17.0
+[debug] [2023-01-09T13:13:28.989Z] Platform:      win32
+[debug] [2023-01-09T13:13:28.989Z] Node Version:  v16.17.0
+[debug] [2023-01-09T13:13:28.990Z] Time:          Mon Jan 09 2023 21:13:28 GMT+0800 (Malaysia Time)
+[debug] [2023-01-09T13:13:28.990Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-09T13:13:29.076Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-09T13:13:29.077Z] > authorizing via signed-in user (isyaamill@gmail.com)
+[debug] [2023-01-09T13:13:29.077Z] [iam] checking project airbnb-e2728 for permissions ["firebase.projects.get"]
+[debug] [2023-01-09T13:13:29.079Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/airbnb-e2728:testIamPermissions [none]
+[debug] [2023-01-09T13:13:29.079Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/airbnb-e2728:testIamPermissions x-goog-quota-user=projects/airbnb-e2728
+[debug] [2023-01-09T13:13:29.079Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/airbnb-e2728:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-01-09T13:13:30.257Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/airbnb-e2728:testIamPermissions 200
+[debug] [2023-01-09T13:13:30.257Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/airbnb-e2728:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-01-09T13:13:30.258Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-e2728 [none]
+[debug] [2023-01-09T13:13:30.620Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-e2728 200
+[debug] [2023-01-09T13:13:30.620Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-e2728 {"projectId":"airbnb-e2728","projectNumber":"135982996197","displayName":"Airbnb","name":"projects/airbnb-e2728","resources":{"hostingSite":"airbnb-e2728"},"state":"ACTIVE","etag":"1_dcc3e3e5-ddb3-4df1-a6b7-f0ed00c8145c"}
+[info] 
+[info] === Serving from 'C:\Users\mill\Desktop\airbnb-clone'...
+[info] 
+[debug] [2023-01-09T13:13:30.628Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/airbnb-e2728/sites 
+[debug] [2023-01-09T13:13:31.341Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/airbnb-e2728/sites 200
+[debug] [2023-01-09T13:13:31.341Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/airbnb-e2728/sites {"sites":[{"name":"projects/airbnb-e2728/sites/airbnb-e2728","defaultUrl":"https://airbnb-e2728.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-01-09T13:13:31.342Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-e2728/webApps/-/config [none]
+[debug] [2023-01-09T13:13:32.127Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-e2728/webApps/-/config 200
+[debug] [2023-01-09T13:13:32.128Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-e2728/webApps/-/config {"projectId":"airbnb-e2728","storageBucket":"airbnb-e2728.appspot.com","apiKey":"AIzaSyAdG5WWjhtTJcV4oOV70abuaxjKqcjGuCE","authDomain":"airbnb-e2728.firebaseapp.com","messagingSenderId":"135982996197"}
+[debug] [2023-01-09T13:13:32.139Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-e2728 [none]
+[debug] [2023-01-09T13:13:32.444Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-e2728 200
+[debug] [2023-01-09T13:13:32.444Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/airbnb-e2728 {"projectId":"airbnb-e2728","projectNumber":"135982996197","displayName":"Airbnb","name":"projects/airbnb-e2728","resources":{"hostingSite":"airbnb-e2728"},"state":"ACTIVE","etag":"1_dcc3e3e5-ddb3-4df1-a6b7-f0ed00c8145c"}
+[info] i  hosting[airbnb-e2728]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[airbnb-e2728]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}

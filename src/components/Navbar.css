@@ -1,0 +1,13 @@
+.header-icon {
+    object-fit: contain;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}

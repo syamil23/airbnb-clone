@@ -1,0 +1,47 @@
+.locationBar {
+    border-width:1px;
+    border-style:solid;
+    border-color:lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.anyWhere {
+    text-align: center;
+    justify-content: center;
+    padding: 0px 16px;
+    margin: -1px;
+    font-weight:600;
+    font-size: 15px;
+}
+.anyWeeks {
+    text-align: center;
+    justify-content: center;
+    padding: 0px 2px;
+    margin: -1px;
+    font-weight:500;
+    font-size: 15px;
+}
+.addGuest {
+    text-align: center;
+    justify-content: center;
+    padding: 0px 16px;
+    margin: -1px;
+    vertical-align: middle;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.vertical {
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 20px;
+    text-align: center;
+}    
+
+.icon {
+    padding: 3px;
+}
